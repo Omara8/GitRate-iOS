@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0DF2712DABF1089598127CA /* Pods_GitRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E90EC08B9CF6A226C6C787 /* Pods_GitRate.framework */; };
+		E10D281E231E790000A970B0 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D281D231E790000A970B0 /* BaseRequest.swift */; };
+		E10D2821231E799A00A970B0 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D2820231E799A00A970B0 /* AppError.swift */; };
+		E10D2825231E7B0600A970B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D2824231E7B0600A970B0 /* NetworkManager.swift */; };
+		E10D282A231EE79D00A970B0 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D2829231EE79D00A970B0 /* BasePresenter.swift */; };
+		E10D282D231EE8B500A970B0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D282C231EE8B500A970B0 /* Presenter.swift */; };
+		E10D282F231EE92A00A970B0 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D282E231EE92A00A970B0 /* View.swift */; };
+		E10D2833231EEE9000A970B0 /* ValidateSessionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D2832231EEE9000A970B0 /* ValidateSessionUseCase.swift */; };
+		E10D2835231EEF2A00A970B0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D2834231EEF2A00A970B0 /* BaseViewController.swift */; };
 		E147970222EA86B000A8A529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147970122EA86B000A8A529 /* AppDelegate.swift */; };
 		E147970422EA86B000A8A529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E147970322EA86B000A8A529 /* ViewController.swift */; };
 		E147970722EA86B000A8A529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E147970522EA86B000A8A529 /* Main.storyboard */; };
@@ -15,6 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DB2A64EF940BB3C605D83DD /* Pods-GitRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRate.debug.xcconfig"; path = "Target Support Files/Pods-GitRate/Pods-GitRate.debug.xcconfig"; sourceTree = "<group>"; };
+		94E90EC08B9CF6A226C6C787 /* Pods_GitRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB87A8CFF6CF1BC5D3E7E128 /* Pods-GitRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRate.release.xcconfig"; path = "Target Support Files/Pods-GitRate/Pods-GitRate.release.xcconfig"; sourceTree = "<group>"; };
+		E10D281D231E790000A970B0 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		E10D2820231E799A00A970B0 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		E10D2824231E7B0600A970B0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E10D2829231EE79D00A970B0 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		E10D282C231EE8B500A970B0 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		E10D282E231EE92A00A970B0 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E10D2832231EEE9000A970B0 /* ValidateSessionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSessionUseCase.swift; sourceTree = "<group>"; };
+		E10D2834231EEF2A00A970B0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E14796FE22EA86B000A8A529 /* GitRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E147970122EA86B000A8A529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E147970322EA86B000A8A529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +49,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DF2712DABF1089598127CA /* Pods_GitRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2810C7FBC5C705E819DE87F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94E90EC08B9CF6A226C6C787 /* Pods_GitRate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5D8524C63349B0CD8FE96AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DB2A64EF940BB3C605D83DD /* Pods-GitRate.debug.xcconfig */,
+				DB87A8CFF6CF1BC5D3E7E128 /* Pods-GitRate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E10D281C231E78DB00A970B0 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E10D281D231E790000A970B0 /* BaseRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E10D281F231E798E00A970B0 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2820231E799A00A970B0 /* AppError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		E10D2822231E7AD500A970B0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2823231E7AEA00A970B0 /* Network */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E10D2823231E7AEA00A970B0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2824231E7B0600A970B0 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E10D2827231E7D4300A970B0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2830231EEE7900A970B0 /* Launch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E10D282B231EE8A500A970B0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E10D282C231EE8B500A970B0 /* Presenter.swift */,
+				E10D282E231EE92A00A970B0 /* View.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E10D2830231EEE7900A970B0 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2831231EEE7F00A970B0 /* UseCase */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E10D2831231EEE7F00A970B0 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E10D2832231EEE9000A970B0 /* ValidateSessionUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		E14796F522EA86B000A8A529 = {
 			isa = PBXGroup;
 			children = (
 				E147970022EA86B000A8A529 /* GitRate */,
 				E14796FF22EA86B000A8A529 /* Products */,
+				B5D8524C63349B0CD8FE96AF /* Pods */,
+				2810C7FBC5C705E819DE87F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +159,8 @@
 		E147970022EA86B000A8A529 /* GitRate */ = {
 			isa = PBXGroup;
 			children = (
+				E10D2827231E7D4300A970B0 /* Modules */,
+				E1EC1F1622EB7CC200209B83 /* Skeleton */,
 				E147970122EA86B000A8A529 /* AppDelegate.swift */,
 				E147970322EA86B000A8A529 /* ViewController.swift */,
 				E147970522EA86B000A8A529 /* Main.storyboard */,
@@ -64,6 +171,27 @@
 			path = GitRate;
 			sourceTree = "<group>";
 		};
+		E1EC1F1622EB7CC200209B83 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				E10D282B231EE8A500A970B0 /* Protocol */,
+				E10D2822231E7AD500A970B0 /* Common */,
+				E1EC1F1722EB7CCA00209B83 /* Base */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		E1EC1F1722EB7CCA00209B83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E10D281C231E78DB00A970B0 /* Request */,
+				E10D281F231E798E00A970B0 /* Error */,
+				E10D2829231EE79D00A970B0 /* BasePresenter.swift */,
+				E10D2834231EEF2A00A970B0 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E147971022EA86B100A8A529 /* Build configuration list for PBXNativeTarget "GitRate" */;
 			buildPhases = (
+				270C2F01593E318F9678ABAA /* [CP] Check Pods Manifest.lock */,
 				E14796FA22EA86B000A8A529 /* Sources */,
 				E14796FB22EA86B000A8A529 /* Frameworks */,
 				E14796FC22EA86B000A8A529 /* Resources */,
+				F3D88806B7F467908C12F9D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +260,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		270C2F01593E318F9678ABAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitRate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D88806B7F467908C12F9D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRate/Pods-GitRate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRate/Pods-GitRate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitRate/Pods-GitRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E14796FA22EA86B000A8A529 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10D282F231EE92A00A970B0 /* View.swift in Sources */,
+				E10D2821231E799A00A970B0 /* AppError.swift in Sources */,
+				E10D282D231EE8B500A970B0 /* Presenter.swift in Sources */,
+				E10D2833231EEE9000A970B0 /* ValidateSessionUseCase.swift in Sources */,
+				E10D282A231EE79D00A970B0 /* BasePresenter.swift in Sources */,
+				E10D2835231EEF2A00A970B0 /* BaseViewController.swift in Sources */,
 				E147970422EA86B000A8A529 /* ViewController.swift in Sources */,
+				E10D2825231E7B0600A970B0 /* NetworkManager.swift in Sources */,
 				E147970222EA86B000A8A529 /* AppDelegate.swift in Sources */,
+				E10D281E231E790000A970B0 /* BaseRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +460,12 @@
 		};
 		E147971122EA86B100A8A529 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB2A64EF940BB3C605D83DD /* Pods-GitRate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitRate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +479,12 @@
 		};
 		E147971222EA86B100A8A529 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB87A8CFF6CF1BC5D3E7E128 /* Pods-GitRate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GitRate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

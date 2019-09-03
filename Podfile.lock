@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - Cache (4.0.4):
+    - SwiftHash (~> 2.0.0)
+  - ObjectMapper (3.4.2)
+  - Result (3.2.4)
+  - SwiftHash (2.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6.0)
+  - AlamofireObjectMapper
+  - Cache (~> 4.0.2)
+  - ObjectMapper (~> 3.4.2)
+  - Result (~> 3.2.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Cache
+    - ObjectMapper
+    - Result
+    - SwiftHash
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  Cache: 1b3907ee2f5a457e7cfe9ac0be22dc9207f55a09
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SwiftHash: 6d312abe61c8359bdef8d0093642f3a70b1c17ba
+
+PODFILE CHECKSUM: 155bf4e05eb5af78a9b05725d9577a2a80c0e745
+
+COCOAPODS: 1.7.5
