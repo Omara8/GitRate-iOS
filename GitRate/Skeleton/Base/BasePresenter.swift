@@ -37,18 +37,7 @@ class BasePresenter: Presenter {
     
     func validateSession(message: String) {
         self.baseView.disableStateViewInteraction()
-//        validateSessionUseCase.execute { [weak self] (result) in
-//            switch result {
-//            case .success:
-//                self?.retry(dissmisable: true)
-//            case .failure:
-//                // HAX: ADAL works in the background
-//                if let self = self {
-//                    self.baseView.showErrorView(withMessage: message, source: self, dissmisable: false)
-//                    self.baseView.enableStateViewInteraction()
-//                }
-//            }
-//        }
+        
     }
     
     func handle(error: AppError) {

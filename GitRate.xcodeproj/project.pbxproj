@@ -21,6 +21,8 @@
 		E147970722EA86B000A8A529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E147970522EA86B000A8A529 /* Main.storyboard */; };
 		E147970922EA86B100A8A529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E147970822EA86B100A8A529 /* Assets.xcassets */; };
 		E147970C22EA86B100A8A529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E147970A22EA86B100A8A529 /* LaunchScreen.storyboard */; };
+		E1535558232F9CD400A4E2CB /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1535557232F9CD400A4E2CB /* Route.swift */; };
+		E153555A232F9D9800A4E2CB /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1535559232F9D9800A4E2CB /* Routable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		E147970822EA86B100A8A529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E147970B22EA86B100A8A529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E147970D22EA86B100A8A529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1535557232F9CD400A4E2CB /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		E1535559232F9D9800A4E2CB /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 			children = (
 				E10D282C231EE8B500A970B0 /* Presenter.swift */,
 				E10D282E231EE92A00A970B0 /* View.swift */,
+				E1535559232F9D9800A4E2CB /* Routable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -171,6 +176,14 @@
 			path = GitRate;
 			sourceTree = "<group>";
 		};
+		E1535556232F9C8100A4E2CB /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				E1535557232F9CD400A4E2CB /* Route.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
 		E1EC1F1622EB7CC200209B83 /* Skeleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +197,7 @@
 		E1EC1F1722EB7CCA00209B83 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				E1535556232F9C8100A4E2CB /* Route */,
 				E10D281C231E78DB00A970B0 /* Request */,
 				E10D281F231E798E00A970B0 /* Error */,
 				E10D2829231EE79D00A970B0 /* BasePresenter.swift */,
@@ -309,10 +323,12 @@
 			files = (
 				E10D282F231EE92A00A970B0 /* View.swift in Sources */,
 				E10D2821231E799A00A970B0 /* AppError.swift in Sources */,
+				E1535558232F9CD400A4E2CB /* Route.swift in Sources */,
 				E10D282D231EE8B500A970B0 /* Presenter.swift in Sources */,
 				E10D2833231EEE9000A970B0 /* ValidateSessionUseCase.swift in Sources */,
 				E10D282A231EE79D00A970B0 /* BasePresenter.swift in Sources */,
 				E10D2835231EEF2A00A970B0 /* BaseViewController.swift in Sources */,
+				E153555A232F9D9800A4E2CB /* Routable.swift in Sources */,
 				E147970422EA86B000A8A529 /* ViewController.swift in Sources */,
 				E10D2825231E7B0600A970B0 /* NetworkManager.swift in Sources */,
 				E147970222EA86B000A8A529 /* AppDelegate.swift in Sources */,
